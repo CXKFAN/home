@@ -10,6 +10,6 @@ class global_var:
 def set_name(name):
     global_var.name = name
 
-
+##
 def get_name():
     return global_var.name

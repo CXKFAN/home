@@ -10,7 +10,7 @@ from threading import Thread
 from tkinter import ttk
 from tkinter.filedialog import *
 from PIL import Image, ImageTk
-###
+#######
 
 class ThreadWithReturnValue(Thread):
     def __init__(self, group=None, target=None, name=None, args=(), kwargs=None, *, daemon=None):
